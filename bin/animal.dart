@@ -21,6 +21,8 @@ class Animal{
 //child/sud class
 class Cat extends Animal{
   void meow(){
-    print("This is Cat. Cat does meow");
+    super.display();
+    super.animalName;
+    print("This is Cat. Cat does meow.:$animalName");
   }
 }
